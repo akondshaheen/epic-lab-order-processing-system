@@ -1,3 +1,12 @@
+
+port: 8080
+
 spring:
   application:
-    name: system
+    name: lab-order-service-epic
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/epic_lab_order_db
+    username: admin
+    password: admin
+    driverClassName: org.postgresql.Driver
